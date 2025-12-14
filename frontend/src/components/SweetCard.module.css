@@ -1,0 +1,21 @@
+.card {
+    background: white; border: 1px solid #eee; border-radius: 10px; padding: 20px;
+    width: 260px; display: flex; flex-direction: column; justify-content: space-between;
+    position: relative; box-shadow: 0 2px 5px rgba(0,0,0,0.05); transition: transform 0.2s;
+}
+.card:hover { transform: translateY(-5px); }
+.title { margin: 0 0 5px; color: #333; font-size: 1.3rem; }
+.badge { background: #f0f0f0; color: #666; padding: 2px 8px; border-radius: 12px; font-size: 0.8rem; }
+.desc { color: #777; font-size: 0.9rem; margin: 10px 0; }
+.price { font-size: 1.2rem; font-weight: bold; color: #d81b60; margin: 10px 0; }
+.buyBtn {
+    width: 100%; padding: 10px; background: #d81b60; color: white; border: none;
+    border-radius: 5px; cursor: pointer; font-weight: bold;
+}
+.buyBtn:disabled { background: #ccc; cursor: not-allowed; }
+.stock { color: green; font-weight: bold; }
+.out { color: red; font-weight: bold; }
+.delete {
+    position: absolute; top: 10px; right: 10px; background: red; color: white;
+    border: none; border-radius: 50%; width: 24px; height: 24px; cursor: pointer;
+}

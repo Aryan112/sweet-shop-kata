@@ -1,0 +1,22 @@
+.panel {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.section { flex: 1; min-width: 300px; }
+.section h3 { margin-top: 0; color: #333; }
+.section input, .section select {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.section button {
+    background: #333; color: white; padding: 8px 16px; border: none; cursor: pointer;
+}
